@@ -1,0 +1,47 @@
+
+
+nav{
+    height: 110px;
+   
+}
+.navegadores{
+    text-align: center;
+    height: 50px; 
+}
+.nav-link-1{
+    color: white;
+    text-decoration: none;
+}
+.nav-link-2{
+    color: rgb(53, 50, 50);
+    text-decoration: none;
+}
+.nav-link-3{
+    color: rgb(53, 50, 50);
+    text-decoration: none;
+}
+.nav-link-4{
+    color: rgb(53, 50, 50);
+    text-decoration: none;
+}
+.nav-link-5{
+    color: rgb(66, 173, 66);
+    text-decoration: none;
+} 
+
+.imagenpalacio{
+    text-align: right;
+    height: 1200px;
+}
+.botoncard{
+    padding: 5px;
+    width: 90px;
+    font-size: 15px;
+    align-items: center;
+}
+.cardhonolulu{
+    background-color: rgb(66, 65, 65);
+}
+
+
+
