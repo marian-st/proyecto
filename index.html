@@ -11,7 +11,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar bg-secondary p-3">
+    <nav class="navbar p-3 nave-color">
         <div class="container-fluid">
           <a class="navbar-brand text-white fs-4" href="#">
             <img src="./codoacodo.png" alt="Logo" width="160" height="90" class="d-inline-block align-text-center">
@@ -22,42 +22,44 @@
                 <a href="" class="nav-link-2 ps-2">Los oradores</a>
                 <a href="" class="nav-link-3 ps-2">El lugar y la fecha</a>
                 <a href="" class="nav-link-4 ps-2">Conviértete en orador</a>
-                <a href="" class="nav-link-5 ps-2">Comprar tickets</a>
+                <a href="index2.html" class="nav-link-5 ps-2">Comprar tickets</a>
           </div> 
         </div>
       </nav>
      
 
   </header>
-  <div class="card text-end bg-dark text-white ">
+  <div class="card text-end bg-dark text-white">
     <img src="./ba1.jpg" class="card-img" alt="...">
     <div class="card-img-overlay imagenpalacio">
       <h1 class="card-title d-flex justify-content-end">Conf Bs As</h1>
-      <p class="card-text d-flex justify-content-end">Bs As llega por primera vez a Argentina. Un evento para competir con nuestra comunidad el conocmiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+      <p class="card-text d-flex justify-content-end textoConferencia">Bs As llega por primera vez a Argentina. Un evento para competir con nuestra comunidad el conocmiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
       <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-      <button type="button" class="btn btn-success">Comprar Tickets</button>
+    <!-- AGREGUE a PARA QUE ME DIRECCIONE A LA PAGINA DE COMPRA DE TICKETS -->
+      <a href="index2.html"><button type="button" class="btn btn-success">Comprar Tickets</button></a>
     </div>
   </div>
     <div>
       <h6 class="text-center"><br> CONOCE A LOS</h6>
       <h2 class="text-center">ORADORES</h2>
   </div>
-  
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-      <div class="card h-100">
-        <img src="./steve.jpg" class="card-img-top" alt="...">
-        <div class="botones">
-          <button type="submit" class="btn btn-warning botoncard">JavaScript</button>
-        <button type="submit" class="btn btn-info botoncard">React</button></div>
+  <div class="tarjetas">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./steve.jpg" class="card-img-top" alt="...">
+          <div class="botones">
+            <button type="submit" class="btn btn-warning botoncard">JavaScript</button>
+            <button type="submit" class="btn btn-info botoncard">React</button></div>
         
-        <div class="card-body">
-          <h5 class="card-title">Steve Jobs</h5>
-          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum libero voluptates dolore id, minima ullam possimus asperiores sed facilis alias quisquam tempore nulla accusantium rem! Aliquid eos ratione sapiente voluptate.</p>
+          <div class="card-body">
+            <h5 class="card-title">Steve Jobs</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum libero voluptates dolore id, minima ullam possimus asperiores sed facilis alias quisquam tempore nulla accusantium rem! Aliquid eos ratione sapiente voluptate.</p>
+          </div>
+        
         </div>
-        
       </div>
-    </div>
+    
     <div class="col">
       <div class="card h-100">
         <img src="./bill.jpg" class="card-img-top" alt="...">
@@ -86,6 +88,7 @@
         </div>
       </div>
     </div>
+  </div>  
   </div><br>
   <div class="card mb-3" style="max-width: 100%;">
     <div class="row g-0">
@@ -101,11 +104,13 @@
       </div>
     </div>
   </div>
+
   <div class="text-center">
     <h6>CONVIÉRTETE EN UN </h6>
     <h1>ORADOR</h1>
     <h6>Anótate como orador para dar una <abbr title="attribute">charla ignite.</abbr> Cuéntanos de qué quieres hablar.</h6>
   </div>
+<div class="formulario">  
   <div class="row mb-3">
     <div class="col 2">
       <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
@@ -117,23 +122,25 @@
 
     <div class="form-floating">
       <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
-      <label for="floatingTextarea2">Sobre qué quieres hablar?</label>
-      <footer><h6>Recuerda incluir un título a tu charla</h6></footer>
+      <label for="floatingTextarea2"><h5>Sobre qué quieres hablar?</h5> </label>
+        <h6>Recuerda incluir un título a tu charla</h6>
     </div>
     <div class="d-grid">
-      <button class="btn btn-success" type="button">Enviar</button>
+      <button class="btn boton1" type="button">Enviar</button>
     </div>
-    <br>
+  </div>
+  </div>  <br>
   <footer>
-    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-light pie">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Preguntas frecuentes</a>
-        <a class="navbar-brand" href="#">Cantáctanos</a>
-        <a class="navbar-brand" href="#">Prensa</a>
-        <a class="navbar-brand" href="#">Conferencias</a>
-        <a class="navbar-brand" href="#">Términos y condiciones</a>
-        <a class="navbar-brand" href="#">Privacidad</a>
-        <a class="navbar-brand" href="#">Estudiantes</a>
+        <a class="navbar-brand text-white" href="#">Preguntas frecuentes</a>
+        <a class="navbar-brand text-white" href="#">Cantáctanos</a>
+        <a class="navbar-brand text-white" href="#">Prensa</a>
+        <a class="navbar-brand text-white" href="#">Conferencias</a>
+        <a class="navbar-brand text-white" href="#">Términos y condiciones</a>
+        <a class="navbar-brand text-white" href="#">Privacidad</a>
+        <a class="navbar-brand text-white" href="#">Estudiantes</a>
+  
   </footer>
 
 

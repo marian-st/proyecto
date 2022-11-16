@@ -13,25 +13,32 @@ nav{
     text-decoration: none;
 }
 .nav-link-2{
-    color: rgb(53, 50, 50);
+    color: rgb(179, 170, 170);
     text-decoration: none;
 }
 .nav-link-3{
-    color: rgb(53, 50, 50);
+    color: rgb(179, 170, 170);
     text-decoration: none;
 }
 .nav-link-4{
-    color: rgb(53, 50, 50);
+    color: rgb(179, 170, 170);
     text-decoration: none;
 }
 .nav-link-5{
     color: rgb(66, 173, 66);
     text-decoration: none;
 } 
-
+.nave-color{
+    background-color: rgb(52, 58, 64);
+}
+.card-img{
+    opacity: .5;
+    
+}
 .imagenpalacio{
-    text-align: right;
-    height: 1200px;
+    top: 580px;
+    left: 1200px;
+    right: 150px;
 }
 .botoncard{
     padding: 5px;
@@ -43,5 +50,75 @@ nav{
     background-color: rgb(66, 65, 65);
 }
 
+.textoConferencia{
+    top: 250px;
+    left: 150px;
+}
 
-
+.tarjetas{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.formulario{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.boton1{
+    background-color: rgb(149, 205, 65);
+}
+.pie{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+footer{
+    background-color:rgb(23, 61, 87); 
+}
+.cajaEstudiante{
+    width: 150px;
+    height: 300px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    margin: 5px;
+    /* float: ; */
+    text-align: center;
+    
+}
+.cajaTrainee{
+    border-color: green;
+    border-width: 3px;
+    border-style: solid;
+    width: 150px;
+    height: 300px;
+    /* float: left; */
+    margin: 5px;
+    
+    text-align: center;
+}
+.cajaJunior{
+    border-color: rgb(240, 240, 22);
+    border-width: 3px;
+    border-style: solid;
+    width: 150px;
+    height: 300px;
+    /* float: left; */
+    margin: 5px;
+    text-align: center;   
+}
+h6{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.container{
+    margin-left: 450px;
+}
+.importeTotal{
+    background-color: rgb(108, 211, 245);
+    width: 950px;
+    margin-right: 350px;
+    text-align: left;
+    height: 35px;
+    
+}
